@@ -47,12 +47,15 @@ Create a .env file in the root directory and add your API keys:
 
 Code Snippet
 GOOGLE_API_KEY=your_gemini_api_key_here
+
 TAVILY_API_KEY=your_tavily_api_key_here
 
 4. Run the Application
 You will need two separate terminal windows to run the backend and frontend simultaneously.
 
+
 Terminal 1: Run the Backend (FastAPI)
+
 
 Bash
 uvicorn main:app --reload
