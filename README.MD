@@ -21,7 +21,7 @@ An intelligent, multi-agent financial analysis platform built with **LangGraph**
 
 The system follows a directed graph workflow where parallel processing is handled via LangGraph nodes:
 
-
+""" mermaid
 graph TD;
     A[User Input] --> B(FastAPI Endpoint);
     B --> C{Graph State Initiated};
