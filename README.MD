@@ -33,7 +33,7 @@ graph TD;
     G --> H[Final Decision: BUY/SELL/HOLD];
     H --> I[Streamlit Dashboard];
 
-⚙️ Installation & Setup
+Installation & Setup
 Prerequisites
 Make sure you have Python 3.10+ and Git installed on your system.
 
